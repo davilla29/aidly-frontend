@@ -1,16 +1,78 @@
-# React + Vite
+# 🩺 Aidly Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** of the **Aidly** project, built with **React** and **Vite**. It provides a fast development environment with Hot Module Replacement (HMR) and modern ES module support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Getting Started
 
-## React Compiler
+### 1. Clone the Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/your-username/aidly-frontend.git
+cd aidly-frontend
+```
 
-## Expanding the ESLint configuration
+### 2. Install Dependencies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Make sure you have **Node.js (v16 or higher)** and **npm** or **yarn** installed, then run:
+
+```bash
+npm install
+```
+
+or
+
+```bash
+yarn install
+```
+
+### 3. Run the Development Server
+
+Start the app in development mode:
+
+```bash
+npm run dev
+```
+
+Then open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+---
+
+## ⚙️ Tech Stack
+
+- **React** (Frontend Framework)
+- **Vite** (Build Tool)
+- **Tailwind CSS**
+
+---
+
+## 📁 Project Structure
+
+```
+aidly-frontend/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 💡 Notes
+
+- This project uses **Vite** for fast builds and hot reloading.
+- You can customize the configuration in `vite.config.js`.
+- To enable TypeScript or React Compiler later, check the official docs:
+  - [Vite + React TS Template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts)
+  - [React Compiler Setup](https://react.dev/learn/react-compiler/installation)
